@@ -8,18 +8,31 @@
 </head>
 <body>
     <header>
-        <!-- <div>
-            <button>Acessar</button>
-        </div> -->
+        <div id="nav">
+            <ul>
+                <li><a href="#">Estabelecimentos</a></li>
+                <li><a href="#">Benefícios</a></li>
+            </ul>
+            <ul>
+                <li><button>Entrar</button></li>
+                <li><button>criar conta</button></li>
+            </ul>
+        </div>
     </header>
     <main>
-        <div id="container">
-            <button id="btnAgendar">Adicionar Agendamento</button>
-            <div id="modal">
-                <input type="text" id="inputNome" placeholder="Nome">
-                <input type="time" id="inputHoras">
-                <textarea id="inputObs" placeholder="Observações" ></textarea>
-                <button id="btnCadastrar">Cadastrar</button>
+        <h1>Agendar é facilitar o seu dia</h1>
+        <div id="local-modal">
+            <input type="text" name="endereço" id="inputEnd" placeholder="Endereço">
+            <button>Buscar</button>
+        </div>
+        <div id="list-modals">
+            <div>
+                <p>Agendar</p>
+                <a href="#">Ver opções <i class="fa-solid fa-angle-right"></i></a>
+            </div>
+            <div>
+                <p>Horarios</p>
+                <a href="#">Ver opções <i class="fa-solid fa-angle-right"></i></a>
             </div>
         </div>
     </main>
@@ -27,5 +40,6 @@
 
     </footer>
     <script src="script/script.js"></script>
+    <script src="https://kit.fontawesome.com/727c0a0107.js" crossorigin="anonymous"></script>
 </body>
 </html>
